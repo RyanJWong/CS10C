@@ -2,7 +2,7 @@
 #define __HEAP_H
 
 #include "PrintJob.h"
-
+#include <iostream>
 const int MAX_HEAP_SIZE = 10;
 
 class Heap {
@@ -37,5 +37,7 @@ private:
   void trickleDown(int);
 
   //You can include additional private helper functions here
+  void percolateUp(int nodeIndex);
+
 };
 #endif
