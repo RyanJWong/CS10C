@@ -1,0 +1,22 @@
+digraph G {
+g[ label = "*" ]
+g->c[ label = "+" ]
+c[ label = "+" ]
+c->a[ label = "a" ]
+a[ label = "a" ]
+
+c -> b[ label =  "b" ]
+b[ label = "b" ]
+
+
+g -> f[ label =  "-" ]
+f[ label = "-" ]
+f->d[ label = "c" ]
+d[ label = "c" ]
+
+f -> e[ label =  "d" ]
+e[ label = "d" ]
+
+
+
+}
