@@ -1,4 +1,4 @@
-#include "ArithmeticExpression.h"
+#include "arithmeticExpression.h"
 #include <iostream>
 #include <cstdlib>
 #include <stack>
